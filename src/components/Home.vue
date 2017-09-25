@@ -1,13 +1,11 @@
 <template>
   <v-container>
-    <v-layout row wrap class="mb-2">
-      <v-flex xs12 sm6 class="text-xs-center text-sm-right">
-        <v-btn large router to="/meetups" class="primary"> Explore meetups</v-btn>
-      </v-flex>
-      <v-flex xs12 sm6 class="text-xs-center text-sm-left">
-        <v-btn large router to="/meetup/new" class="primary"> new meetup</v-btn>
-      </v-flex>
-    </v-layout>
+    <v-parallax src="https://www.omegawatches.com/images/Watches/Product_Presentation/Seamaster/Seamaster300_Spectre/SE_Seamaster300_Spectre_ambiance1_1600x900.jpg" height="300">
+      <v-layout column align-center justify-center>
+        <h1 class="white--text">Omega archive</h1>
+        <h4 class="white--text">Find your watch</h4>
+      </v-layout>
+    </v-parallax>
     <v-layout>
       <v-flex xs12 class="text-xs-center">
         <v-progress-circular
@@ -60,6 +58,11 @@
 </script>
 
 <style scoped>
+
+  .container {
+    max-width:1500px;
+    padding: 0px;
+  }
   .title {
     position: absolute;
     bottom: 50px;

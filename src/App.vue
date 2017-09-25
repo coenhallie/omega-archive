@@ -1,6 +1,7 @@
 <template>
   <v-app light>
-    <v-navigation-drawer temporary v-model="sideNav">
+    <v-navigation-drawer permanent clipped light v-model="sideNav">
+
       <v-list>
         <v-list-tile
           v-for="item in menuItems"
@@ -19,7 +20,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar>
+    <v-toolbar fixed dark>
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <router-link to="/" tag="span" style="cursor : pointer"> Omega archive</router-link>
