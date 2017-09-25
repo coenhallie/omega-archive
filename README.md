@@ -1,6 +1,6 @@
-# vuetify-application
+# Omega watches archive build with Vue.js
 
-> A Vue.js project
+> Vue.js integration, Firebase SDK with database and user authentication
 
 ## Build Setup
 
