@@ -33,7 +33,20 @@
     </v-layout>
     <v-layout row wrap class="mt-2">
       <v-flex xs12 class="text-xs-center">
-       <p>Joing our meetups</p>
+        <ais-index
+          app-id="latency"
+          api-key="3d9875e51fbd20c7754e65422f7ce5e1"
+          index-name="bestbuy"
+        >
+          <ais-search-box></ais-search-box>
+          <ais-results>
+            <template scope="{ result }">
+              <h2>
+                <ais-highlight :result="result" attribute-name="name"></ais-highlight>
+              </h2>
+            </template>
+          </ais-results>
+        </ais-index>
       </v-flex>
     </v-layout>
   </v-container>

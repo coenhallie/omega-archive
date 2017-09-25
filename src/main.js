@@ -11,8 +11,11 @@ import EditMeetupDetailsDialog from './components/Meetup/Edit/EditMeetupDetailsD
 import EditMeetupDateDialog from './components/Meetup/Edit/EditMeetupDateDialog.vue'
 import EditMeetupTimeDialog from './components/Meetup/Edit/EditMeetupTimeDialog.vue'
 import RegisterDialog from './components/Meetup/Registration/RegisterDialog.vue'
+import InstantSearch from 'vue-instantsearch'
 
 Vue.use(Vuetify)
+Vue.use(InstantSearch)
+
 Vue.config.productionTip = false
 
 Vue.filter('date', DateFilter)
