@@ -22,7 +22,7 @@
     <v-toolbar>
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
-        <router-link to="/" tag="span" style="cursor : pointer"> Dev Meetup</router-link>
+        <router-link to="/" tag="span" style="cursor : pointer"> Omega archive</router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
