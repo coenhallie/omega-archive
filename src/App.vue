@@ -62,8 +62,8 @@
         ]
         if (this.userIsAuthenticated) {
           menuItems = [
-          { icon: 'supervisor_account', title: 'View Meetups', link: '/meetups' },
-          { icon: 'room', title: 'Organize Meetups', link: '/meetup/new' },
+          { icon: 'archive', title: 'Search Archive', link: '/meetups' },
+          { icon: 'dashboard', title: 'News', link: '/meetup/new' },
           { icon: 'person', title: 'Profile', link: '/profile' }
           ]
         }
